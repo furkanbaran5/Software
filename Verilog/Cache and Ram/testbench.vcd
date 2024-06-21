@@ -1,0 +1,125 @@
+$date
+	Sun Jun 02 23:59:01 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 32 ! out [31:0] $end
+$var reg 32 " address [31:0] $end
+$var reg 1 # clk $end
+$var reg 32 $ data [31:0] $end
+$var reg 1 % mode $end
+$scope module tb $end
+$var wire 32 & address [31:0] $end
+$var wire 1 # clk $end
+$var wire 32 ' data [31:0] $end
+$var wire 1 % mode $end
+$var wire 24 ( tag [23:0] $end
+$var wire 8 ) index [7:0] $end
+$var wire 2 * block_offset [1:0] $end
+$var parameter 32 + BLOCK_SIZE $end
+$var parameter 32 , CACHE_SIZE $end
+$var parameter 32 - NUM_BLOCKS $end
+$var reg 32 . out [31:0] $end
+$var integer 32 / i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000000 -
+b100000000 ,
+b100 +
+$end
+#0
+$dumpvars
+b1000000 /
+bx .
+b0 *
+b0 )
+b0 (
+b11100011000000 '
+b0 &
+1%
+b11100011000000 $
+1#
+b0 "
+bx !
+$end
+#25
+0#
+#50
+b101001111110010111111011 (
+b110111 )
+1#
+b10000000100001010101 $
+b10000000100001010101 '
+b10100111111001011111101111011100 "
+b10100111111001011111101111011100 &
+#75
+0#
+#100
+b111101000111 (
+b110100 )
+b1 *
+1#
+b1100000110001101100010110 $
+b1100000110001101100010110 '
+b11110100011111010001 "
+b11110100011111010001 &
+#125
+0#
+#150
+b101001111110010111111011 (
+b110111 )
+b0 *
+1#
+b11100011000000 $
+b11100011000000 '
+b10100111111001011111101111011100 "
+b10100111111001011111101111011100 &
+#175
+0#
+#200
+b111101000111 (
+b110100 )
+b1 *
+1#
+b11110100011111010001 "
+b11110100011111010001 &
+#225
+0#
+#250
+b11100011000000 !
+b11100011000000 .
+1#
+0%
+b0 $
+b0 '
+#275
+0#
+#300
+b101001111110010111111011 (
+b110111 )
+b0 *
+1#
+b10100111111001011111101111011100 "
+b10100111111001011111101111011100 &
+#325
+0#
+#350
+b0 (
+b0 )
+1#
+b11100011000000 $
+b11100011000000 '
+b0 "
+b0 &
+#375
+0#
+#400
+1#
